@@ -5,6 +5,8 @@
 ## this function is implemented within 'randomRichness' & 'randomRichnessDisplay' functions
 ## arguments: data_file = the path to the squared matrix representing the geographic domain of interest (1's on "land" and 0's on "sea"); range_size = the desire range size to simulate
 
+## NOTE: exclusive to Fabricio's data: a squared matrix of 175 x 175 cells. Change it according to your data 
+
 randomMap<-function(data_file,range_size){
 
 # Read the table to create the matrix needed

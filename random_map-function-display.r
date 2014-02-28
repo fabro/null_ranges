@@ -67,11 +67,13 @@ axis(BELOW<-1, at=1:length(xLabels), labels=xLabels, cex.axis=0.7)
 # ----- END plot function ----- #
 
 
-#### Carlos López-Natarén & Fabricio Villalobos (based on VisualBasic code by Héctor T. Arita)
+#### Carlos López-Natarén (@natorro) & Fabricio Villalobos (@fabro) (based on VisualBasic code by Héctor T. Arita)
 
-## Function to generate one random cohesive range and visualize it as it is generated
+## Function to generate one random cohesive range and visualize it as it is generated using the above function myImagePlot()
 # just to be used by itself, not if it's within 'randomRichness' function 
 # it used the function myImagePlot to visualize range "growth"
+
+## NOTE: exclusive to Fabricio's data: a squared matrix of 175 x 175 cells. Change it according to your data 
 
 randomMapDisplay<-function(data_file,range_size){
 
