@@ -3,7 +3,7 @@
 ## Function: generate n (n = simulations of size 'size_vector') random ranges
 ## arguments as in rangeMap and rangePam
 
-
+## NOTE: exclusive to Fabricio's data: a squared matrix of 175 x 175 cells. Change it according to your data 
 
 randomRichness<-function(data_file, vector_of_range_sizes, sims){
 
