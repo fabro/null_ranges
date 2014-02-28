@@ -1,8 +1,10 @@
-## Fabricio Villalobos
+## Fabricio Villalobos (@fabro)
 
 ## Function: generate a random presence-absence matrix for n species in the domain. 
 ## It uses randomMap function (needs to be working/loaded in R)
 ## arguments as in randomMap, but with a vector of range sizes to be simulated
+
+## NOTE: exclusive to Fabricio's data: a squared matrix of 175 x 175 cells. Change it according to your data 
 
 randomPam <- function(data_file,vector_of_range_sizes){
     
